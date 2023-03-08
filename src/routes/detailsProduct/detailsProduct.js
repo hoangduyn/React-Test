@@ -1,11 +1,11 @@
 import { Row, Col, Card, Button } from 'antd';
 
-const DetailsProduct = () => {
+const DetailsProduct = ({price}) => {
   return (
     <div>
       <Row gutter={[16, 16]}>
         <Col span={12}>
-          <Card cover={<img alt="product" src="https://via.placeholder.com/500x500" />}>
+          <Card cover={<img alt="product" src="https://via.placeholder.com/300x300" />}>
             <Card.Meta title="Product Name" description="Product Description" />
           </Card>
         </Col>

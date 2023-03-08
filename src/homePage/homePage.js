@@ -1,16 +1,15 @@
 import React from "react";
-import Product from "../components/product";
+import Category from "../routes/category/category.js";
 import CarouselHomePage from "./components/carousel";
 
 const HomePage = () => {
     return(<>
     <CarouselHomePage />
     <div>
-    <Product name='Lan tím' price={60000} rating={4.5} img='..\images\carousel1.jpg' />
-    <Product name='Lan tím' price={60000} rating={4.5} img='..\images\carousel1.jpg' />
-    <Product name='Lan tím' price={60000} rating={4.5} img='..\images\carousel1.jpg' />
-    <Product name='Lan tím' price={60000} rating={4.5} img='..\images\carousel1.jpg' />
-    <Product name='Lan tím' price={60000} rating={4.5} img='..\images\carousel1.jpg' />
+        <Category title='new' color='#e62263' />
+        <Category title='favor' color='#1bbc9b' />
+        <Category title='recommend' color='#1f8ceb' />
+
     </div>
     </>);
 };

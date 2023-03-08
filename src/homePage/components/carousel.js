@@ -8,7 +8,7 @@ const CarouselHomePage = () => {
     }
     return(
         <>
-        <Carousel autoplay={true} autoplaySpeed={2000} effect="fade">
+        <Carousel autoplay={true} autoplaySpeed={2000} effect="fade" style={{marginTop: 20}}>
             <div>
                 <img src="..\..\images\carousel1.jpg" alt="pic1" style={styledImg}/>
             </div>
